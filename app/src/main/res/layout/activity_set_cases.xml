@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SetCasesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizon Cases" />
+
+    <EditText
+        android:id="@+id/editTextHorizonCases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUpdateHorizon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Horizon Cases" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danger Zone Cases" />
+
+    <EditText
+        android:id="@+id/editTextDangerZoneCases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUpdateDangerZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Danger Zone Cases" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prisma Cases" />
+
+    <EditText
+        android:id="@+id/editTextPrismaCases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUpdatePrisma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Prisma Cases" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prisma 2 Cases" />
+
+    <EditText
+        android:id="@+id/editTextPrisma2Cases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUpdatePrisma2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Prisma 2 Cases" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+</LinearLayout>
